@@ -1,5 +1,8 @@
 <header>
   <nav>
+    <a href="/">
+      <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1497599965&di=f9648f228d60ed7fa6713270bfadb1cc&imgtype=jpg&er=1&src=http%3A%2F%2Fwww.chuangyimao.com%2Fuploads%2Fnews%2F20150130%2F20150130090123ad7e329845.jpg" />
+    </a>
     {{ range .Site.Menus.main }}
       <a class="{{if eq $.URL .URL}}active{{end}}" href="{{ .URL }}">
         {{ .Name }}
