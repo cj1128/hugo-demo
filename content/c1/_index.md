@@ -1,7 +1,7 @@
 ---
 date: 2017-06-09T11:01:08+08:00
 draft: true
-title: _index
+title: 分类1
 ---
 
 # this is c1

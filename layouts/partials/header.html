@@ -1,0 +1,9 @@
+<header>
+  <nav>
+    {{ range .Site.Menus.main }}
+      <a class="{{if eq $.URL .URL}}active{{end}}" href="{{ .URL }}">
+        {{ .Name }}
+      </a>
+    {{ end }}
+  </nav>
+</header>
